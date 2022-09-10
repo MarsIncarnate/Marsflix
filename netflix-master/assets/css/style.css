@@ -1,18 +1,32 @@
 /* @font-face { font-family: Roboto; src: url("Roboto-Regular.ttf"); }
 * { margin: 0px; padding: 0px; box-sizing: border-box; font-family: Roboto, sans-serif; } */
 
+
+
 body{
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-section{
-    position: relative;
+.showcase{
+    height: 90vh;
+    color: white;
     text-align: center;
-    text-decoration: none;
-    background-image: url(./images/banner.jpg);
+    background-image: url(../images/banner.jpg);
 }
 
-.navbar img{
-    position: absolute;
-    margin: 0 0 0 0;
+.showcase .navbar{
+    margin-left: 0px;
+}
+
+.showcase .navbar svg{
+    max-width: 10%;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: red;
+    border-radius: 3px;
 }
