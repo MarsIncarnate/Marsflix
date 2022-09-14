@@ -41,7 +41,7 @@ img {
 
 .showcase {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     position: relative;
     background: url(../images/banner2.png) no-repeat center center/cover ;
 }
@@ -54,6 +54,7 @@ img {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
+    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
     z-index: 1;
 }
 
@@ -78,6 +79,124 @@ img {
     transform: translate(-30%, -80%);
     color: white;
     text-decoration: none;
+}
+
+.showcase .showcase-bottom {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    color: #ffff;
+    z-index: 2;
+}
+
+.showcase .showcase-bottom h1 {
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+.showcase .showcase-bottom h3 {
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0 0 1.9rem;
+}
+
+.showcase .showcase-bottom h4 {
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 1.5rem
+}
+
+
+input[type=text] {
+    width: 50rem; 
+    padding: 18px 20px;
+    margin: 8px -3.3px;
+} 
+
+.submit-btn {
+    width: 15rem;
+    height: 6rem;
+    margin-top: -1px;
+}
+
+.section1 , .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    border-top: 9px solid rgb(52, 51, 51);
+    height: 49rem;
+}
+
+.section1 div {
+    color: #ffff;
+    margin-left: 20rem;
+    width: 40rem;
+}
+
+.section1 img {
+    width: 40%;
+    max-width: 50%;
+    height: 72%;
+    margin-right: 15rem;
+}
+
+.section2 img {
+    width: 30%;
+    height: auto;
+}
+
+.section2 div , .section4 div {
+    color: #ffff;
+    margin-right: 20rem;
+    width: 50rem;
+}
+
+.section1 div h3 , .section2 div h3 , .section3 div h3 , .section4 div h3 {
+    font-weight: 700;
+    font-size: 4.7rem;
+    margin-bottom: 2rem;
+}
+
+.section1 div p , .section2 div p , .section3 div p , .section4 div p {
+    font-size: 2rem;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    background: #000;
+    height: 20rem;
+    border-top: 9px solid rgb(52, 51, 51);
+}
+
+.section3 div {
+    color: #ffff;
+    margin-left: 10rem;
+}
+
+.section4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #000;
+    height: 49rem;
+    border-top: 9px solid rgb(52, 51, 51);
+    border-bottom: 9px solid rgb(52, 51, 51);
+}
+
+.section4 img {
+    width: 40%;
+    height: auto;
+
 }
 
 /* Buttons */
@@ -114,48 +233,4 @@ img {
     font-size: 1rem;
     padding: 0.8rem 1.1rem;
     text-transform: uppercase;
-}
-
-.showcase .showcase-bottom {
-    position: relative;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20vh;
-    color: #ffff;
-    z-index: 2;
-}
-
-.showcase .showcase-bottom h1 {
-    font-weight: 700;
-    font-size: 7rem;
-    line-height: 1.1;
-    margin: 0 0 2rem;
-}
-
-.showcase .showcase-bottom h3 {
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 0 0 1.9rem;
-}
-
-.showcase .showcase-bottom h4 {
-    font-weight: 300;
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem
-}
-
-
-input[type=text] {
-    width: 50rem; 
-    padding: 18px 20px;
-    margin: 8px -3.3px;
-} 
-
-.submit-btn {
-    width: 15rem;
-    height: 6rem;
-    margin-top: -1px;
 }
