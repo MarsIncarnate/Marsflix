@@ -199,6 +199,10 @@ input[type=text] {
 
 }
 
+.section5 {
+    display: block;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
