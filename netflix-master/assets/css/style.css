@@ -209,9 +209,28 @@ input[type=text] {
     color: #ffff;
 }
 
+.section5 h1 {
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.section5 .section-items {
+    margin: 20px auto;
+    width: 40%;
+    text-align: left;
+    text-indent: 20px;
+}
+
+.section-items span {
+    position: relative;
+    right: -45rem;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
 .section5 p {
-    background-color: gray;
-    width: 30%;
+    background-color: rgb(71, 66, 66);
+    line-height: 4rem;
 }
 
 /* Buttons */
@@ -225,7 +244,7 @@ input[type=text] {
     border: none;
     cursor: pointer;
     margin-right: 0.5rem;
-    outline: none;
+    
     border-radius: 2px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 }
